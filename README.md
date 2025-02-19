@@ -24,7 +24,7 @@ After cloning required verion of Carla simulator, you may face the following err
           * "C:\Users\hi3334\AppData\Local\Programs\Python\Python37\python.exe" setup.py bdist_egg bdist_wheel
       
   ## Last Step ##
-   5. It seems like Xerces can't be installed properly, here is the solution for it.
+   3. It seems like Xerces can't be installed properly, here is the solution for it.
       1. Install Xerces by conda install -c anaconda xerces-c
       2. Then find Anaconda3 folder, copy-paste everything from Anaconda3\pkgs\xerces-c-3.2.4-ha925a31_0\Library to carla\Build\xerces-c-3.2.4-install.
       3. Next, copy-paste file xerces-c_3.lib from carla\Build\xerces-c-3.2.4-install\lib to folder carla\PythonAPI\carla\dependencies\lib
