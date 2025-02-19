@@ -1,4 +1,4 @@
-# Carla 0.9.13 Update.bat, make PythonAPI Errors solutions
+# Carla 0.9.13 Update.bat, make PythonAPI Errors and solutions
 After cloning required verion of Carla simulator, you may face the following errors:
 1. Update.bat error: this error cause due to broken link in "update batch" file. to resolve this issue you can download carla package from this [link](http://carla-assets.s3.us-east-005.backblazeb2.com/20211112_d5cfa12.tar.gz):
    * Extract the assets in Unreal\CarlaUE4\Content\Carla. If the path doesn't exist, create it.
